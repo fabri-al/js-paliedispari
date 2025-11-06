@@ -9,7 +9,6 @@ while (pariOrDispari.toLowerCase() !== "pari" &&
     //dispari crea un alert
 
     alert("Scegli 'Pari' o 'Dispari'");
-
     pariOrDispari = prompt("Devi Scegle pari o dispari!");
 
 }
@@ -26,7 +25,6 @@ let numeroInserito = parseInt(numeroInseritoString); //converto in intero la str
 while (numeroInserito < 1 || numeroInserito > 5 || isNaN(numeroInserito)) {
 
     alert("Inserisci un numero da 1 a 5");
-
     numeroInserito = prompt("Devi inserire un numero da 1 a 5!");
 }
 
@@ -50,25 +48,21 @@ console.log(somma); //stampo la somma in console
 function sommaPariOdispari() {
 
     if (pariOrDispari == "pari" && somma % 2 == 0) {
-
         alert("Hai vinto!");
 
     }
 
     else if (pariOrDispari == "dispari" && somma % 2 != 0) {
-
         alert("Hai vinto!");
 
     }
 
     else if (pariOrDispari == "pari" && somma % 2 != 0) {
-
         alert("Purtroppo hai perso.");
 
     }
 
     else if (pariOrDispari == "dispari" && somma % 2 == 0) {
-
         alert("Purtroppo hai perso.");
 
     }
