@@ -24,10 +24,3 @@ parolaInserita = str.split("").reverse().join("");
 
 checkPalindrome(parolaInserita);
 
-let stringa1 = "ciao";
-let stringa2 = "anna";
-let stringa3 = "wow";
-
-console.log(checkPalindrome(stringa1));
-console.log(checkPalindrome(stringa2));
-console.log(checkPalindrome(stringa3));
